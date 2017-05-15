@@ -1,0 +1,47 @@
+~/Sites/my-awesome-directory/nested-directory
+cd sites
+pwd
+mkdir my-awesome-directory
+cd my-awesome-directory
+pwd
+mkdir nested-directory
+pwd
+
+~/Sites/my-awesome-directory/nested-directory/hello.txt
+touch hello.txt
+
+~/Sites/terminals-are-fun.txt
+cd sites
+touch terminals-are-fun.text
+
+~/Sites/1/2/3/4/5/6/7/8/9/hello/its/me/adele.jpg
+cd sites
+mkdir -p /1/2/3/4/5/6/7/8/9/hello/its/me
+cd me
+touch adele.jpg
+
+~/Sites/i/was/wondering/if/after/all/these/years/you world/like/to/meet.jpg
+cd /sites
+mkdir i
+cd i
+mkdir was
+cd was
+mkdir wondering
+cd wondering
+mkdir if
+cd if
+mkdir after
+cd after
+mkdir all
+cd all
+mkdir these
+cd these
+mkdir years
+cd years
+mkdir you\ world
+cd you\ world
+mkdir like
+cd like
+mkdir to
+cd to
+touch meet.jpg
