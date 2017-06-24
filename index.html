@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Advanced APIs Lesson</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="/styles.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+
+  <header class="container-fluid text-center">
+    <h1>Local<span>Landscapes</span></h1>
+  </header>
+
+  <div class="container-fluid sign-in-view">
+    <div class="row text-center">
+      <h3>Discover how beautiful your surroundings can be</h3>
+      <button class="btn btn-default" id="login">
+        <a href="#">First Login to 500px</a>
+      </button>
+    </div>
+  </div>
+	<div class="row text-center">
+	<button class="btn btn-default" id="local">
+	 <a href="#">Then Find Your Local Photos</a>
+	</button>
+	</div>
+
+		<div class="row text-center">
+			<h1>OR Choose Your Own Location</h1>
+			<input type="text" id="longitude" placeholder="Enter longitude"><br>
+			<input type="text" id="latitude" placeholder="Enter latitude"><br>
+			<button id="get-location" class="btn btn-primary">See Pictures</button>
+		</div>
+  <div class="container-fluid text-center image-results-view">
+    <h3>Here are some landscape photos from 500px near you:</h3>
+    <div class="images"></div>
+  </div>
+
+  <!-- js -->
+  <script src="/500px.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
